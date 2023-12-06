@@ -32,8 +32,8 @@ func main() {
 		game5.Game5_1()
 	case "5.2":
 		game5.Game5_2()
-	case "6.1":
-		game6.Game6_1()
+	case "6":
+		game6.Game6() // input.txt for 1 and input.2.txt for 2
 
 	default:
 		panic("game not found: " + os.Args[1])

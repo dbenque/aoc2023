@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func Game6_1() {
+func Game6() {
 	if len(os.Args) < 2 {
 		panic("missing input file as second parameter")
 	}
