@@ -6,6 +6,7 @@ import (
 	"aoc/game4"
 	"aoc/game5"
 	"aoc/game6"
+	"aoc/game7"
 	"os"
 )
 
@@ -34,7 +35,10 @@ func main() {
 		game5.Game5_2()
 	case "6":
 		game6.Game6() // input.txt for 1 and input.2.txt for 2
-
+	case "7.1":
+		game7.Game7_1()
+	case "7.2":
+		game7.Game7_2()
 	default:
 		panic("game not found: " + os.Args[1])
 	}
