@@ -1,6 +1,7 @@
 package main
 
 import (
+	"aoc/game10"
 	"aoc/game2"
 	"aoc/game3"
 	"aoc/game4"
@@ -49,6 +50,8 @@ func main() {
 		game9.Game9_1()
 	case "9.2":
 		game9.Game9_2()
+	case "10":
+		game10.Game10_1()
 
 	default:
 		panic("game not found: " + os.Args[1])
