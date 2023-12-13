@@ -8,6 +8,7 @@ import (
 	"aoc/game6"
 	"aoc/game7"
 	"aoc/game8"
+	"aoc/game9"
 	"os"
 )
 
@@ -44,6 +45,10 @@ func main() {
 		game8.Game8_1()
 	case "8.2":
 		game8.Game8_2()
+	case "9.1":
+		game9.Game9_1()
+	case "9.2":
+		game9.Game9_2()
 
 	default:
 		panic("game not found: " + os.Args[1])
